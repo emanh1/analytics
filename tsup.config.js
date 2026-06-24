@@ -5,7 +5,7 @@ const cfg = {
   sourcemap: true,
   clean: true,
   treeshake: false,
-  dts: true,
+  dts: false,
   format: ['esm', 'cjs'],
 };
 

@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "module": "esnext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
@@ -11,5 +12,6 @@
     "jsx": "react",
     "moduleResolution": "node",
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src", "./test.setup.ts"]
 }
